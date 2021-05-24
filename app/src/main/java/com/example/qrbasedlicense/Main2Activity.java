@@ -55,8 +55,8 @@ public class Main2Activity extends AppCompatActivity implements MyAdapter2.Recyc
             startActivity(intent);
 
         }else if (position==1){
-            Intent intent=new Intent(Main2Activity.this,MonogramRecognizerActivity.class);
-            startActivity(intent);
+          /*  Intent intent=new Intent(Main2Activity.this,MonogramRecognizerActivity.class);
+            startActivity(intent);*/
 
         }
          else if (position==2)
