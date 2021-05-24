@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".OptionsActivity">
+    <ImageView
+        android:layout_width="@dimen/logo_w_h"
+        android:layout_height="@dimen/logo_w_h"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/firebaselogo"
+        android:layout_marginTop="100dip"/>
+    <Button
+        android:id="@+id/btnforMotorwayOption"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dip"
+
+
+
+        android:text="Motorway Police"
+        android:background="@color/colorAccent1"
+        android:textColor="@android:color/black" />
+    <Button
+        android:id="@+id/btnforLicenceOffice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dip"
+
+
+
+        android:text="Licence Office"
+        android:background="@color/colorAccent1"
+        android:textColor="@android:color/black" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Driver"
+        android:id="@+id/btnDriver"
+        android:layout_marginTop="50dip"
+
+        android:background="@color/colorAccent1"/>
+
+</LinearLayout>

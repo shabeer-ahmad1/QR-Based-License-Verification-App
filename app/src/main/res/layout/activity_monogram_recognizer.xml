@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    >
+
+
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/uploadimageview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+       />
+
+    <Button
+        android:id="@+id/btnupload"
+        android:onClick="selectImage"
+
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Upload Monogram Image"
+        app:backgroundTint="@color/colorAccent1"
+        app:layout_constraintEnd_toEndOf="@+id/uploadimageview"
+         />
+    <Button
+        android:id="@+id/button123"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Camera"
+
+        android:backgroundTint="@color/colorAccent1"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgPath"
+        android:hint="Image Path Appears Here"
+        android:visibility="gone"
+         />
+
+
+
+    <Button
+        android:id="@+id/btnresult"
+        android:layout_width="match_parent"
+
+
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:text="Result"
+        android:onClick="connectServer"
+        app:backgroundTint="@color/colorAccent1"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Message from the Server ..."
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:id="@+id/responseText"
+        app:layout_constraintStart_toStartOf="@+id/btnresult"
+        app:layout_constraintTop_toBottomOf="@+id/btnresult"
+        />
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_width="135dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="88dp"
+        android:background="@color/colorAccent1"
+        android:onClick="logout"
+        android:text="Logout"
+        android:layout_gravity="center"
+        app:backgroundTint="@color/teal_700"
+        android:layout_marginBottom="10dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "865923326282",
+    "firebase_url": "https://qrbasedlicence-default-rtdb.firebaseio.com",
+    "project_id": "qrbasedlicence",
+    "storage_bucket": "qrbasedlicence.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865923326282:android:60edd10a6d5d96ae1be1b3",
+        "android_client_info": {
+          "package_name": "com.example.qrbasedlicense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865923326282-6c3ifs19260b2vg6ne6hcm0k15vri150.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.qrbasedlicense",
+            "certificate_hash": "657f66124cd9c462ac835db7cce7cb00936aa3d5"
+          }
+        },
+        {
+          "client_id": "865923326282-407p1n5q8kpr4li3dqar1nsnjfdc8t9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKXAb_SY5fnNDtxtHx7HU1mVjeDx5fTQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865923326282-407p1n5q8kpr4li3dqar1nsnjfdc8t9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

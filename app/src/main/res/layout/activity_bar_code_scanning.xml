@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+
+
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editText"
+            android:text="Scan Your QR Code"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:background="#00a5ff"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_qr_readTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/button"
+             />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="First Name"
+                android:layout_weight="0.5"
+
+                android:textSize="24dp"
+                android:fontFamily="serif"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Last Name"
+                android:textSize="24dp"
+                android:fontFamily="serif"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDriverFirstname"
+            android:layout_weight="0.5"
+
+            android:textSize="24dp"
+            android:fontFamily="casual"/>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDriverLastname"
+            android:layout_weight="0.5"
+            android:textSize="24dp"
+            android:fontFamily="casual"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:text="Licence Number"
+            android:textSize="24dp"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:id="@+id/tvDriverLicenceNumber"
+            android:textSize="24dp"
+            android:fontFamily="casual"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Issue Date"
+            android:textSize="24dp"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvissueDate"
+            android:textSize="24dp"
+            android:fontFamily="casual"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Expiry Date"
+            android:textSize="24dp"
+            android:fontFamily="serif"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvExprDate"
+            android:textSize="24dp"
+            android:fontFamily="casual"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Chalan"
+            android:id="@+id/btnAddChalan"
+            android:background="#00a5ff"
+            android:visibility="gone"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:onClick="logout1"
+            android:layout_marginTop="20dip"
+            android:layout_gravity="bottom"
+
+            android:background="#00a5ff"
+            android:textColor="@android:color/white" />
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
